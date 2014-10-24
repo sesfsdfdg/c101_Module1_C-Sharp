@@ -42,7 +42,7 @@ namespace Coding101
             Console.Write(number); //Write the converted number to user. (could use a tokenizer here)
 
             //Pauses the console app until the user hits enter to exit.
-            Console.WriteLine("\nHit <Enter> to exit. "); //Notice the '\n' before this line, tells the Write to put it on a new line.
+            Console.Write("\nHit <Enter> to exit. "); //Notice the '\n' before this line, tells the Write to put it on a new line.
             Console.Read(); //Pause 
 
             //Check out: http://msdn.microsoft.com/en-us/library/System.Console_methods(v=vs.110).aspx For more Details on Console.
